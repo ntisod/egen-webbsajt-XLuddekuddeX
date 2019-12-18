@@ -1,0 +1,76 @@
+@font-face { font-family: godjul; 
+    src: url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap'); } 
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 1em; 
+    font-weight: normal; 
+    text-align: center;
+    background-color: white;
+    background-image: repeating-linear-gradient(green, #c5cbe3, #baccef), 
+                      repeating-linear-gradient(45deg, transparent, transparent 35px, red 35px, red 70px), 
+                      repeating-linear-gradient(45deg, transparent, transparent 35px, red 35px, red 70px);
+    background-size: 60% 100%, 20%, 20%;
+    background-repeat: no-repeat;
+    background-position: center, left, right;
+}
+
+#godmat{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 500px;
+    width: 700px;
+}
+
+#newyear{
+    height: 500px;
+    width: 700px;
+}
+
+#bakgrund, #framtiden, #favoritspel{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em; text-align: center;
+}
+
+#spel iframe{
+    width: 50%;
+    height: 400px;
+}
+
+#spel li{
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.list{
+    list-style-position: inside;
+    margin: auto 40px 0 auto;
+}
+
+.stycke {
+    width: 50%;
+    text-align:center;
+    margin:0 auto;
+}
+
+#huvudrubrik{
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 4em;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+@media all and (max-width: 750px){
+    #favoritspel iframe{
+        height: 35%;
+}
+}
