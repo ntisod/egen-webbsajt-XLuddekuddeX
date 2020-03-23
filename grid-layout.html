@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Layout</title>
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+
+        body{
+            border: 1px solid gray;
+        }
+
+        header{
+            grid-column-start: 1;
+            grid-column-end: span 6;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="grid-container">
+        <header></header>
+        <div id="nav">2</div>
+        <div id="main">3</div>
+        <div id="aside">4</div>
+        <div id="footer">5</div>
+    </div>
+
+    
+
+</body>
+</html>
