@@ -1,9 +1,11 @@
-function typefunction(str){
-    document.getElementById("summa").value += str;
+function typeSymbol(str){
+        document.getElementById("summa").value += str;
 }
 
 function calculate(){
-    document.getElementById("summa").value = eval(result);
+    var summa = String(document.getElementById("summa").value);
+    console.log(summa);
+    document.getElementById("summa").value = eval(summa);
 }
 
 function clearAll(){
