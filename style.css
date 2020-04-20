@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    color: darkgray;
+}
