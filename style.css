@@ -1,32 +1,35 @@
-body {
+html, body {
     background-color: #DCDCDC;
+    margin: 0;
 }
 
 header {
     position: fixed;
     width: 100%;
+    margin: 0 auto;
     height: 15vh;
-    background-color: #DCDCDC;
-    color: #2F4F4F;
+    background-color: #808080;
+    color: #D3D3D3;
     font-size: 0.9em
-}
-
-main {
-    padding-top: 10vw;
+    
 }
 
 .grid-container {
     display: grid;
     margin: 0 auto;
     grid-template-columns: auto;
+    padding-top: 15vh;
 }
   
 .grid-item {
     background-color: #D3D3D3 ;
     border: 1px solid black;
     padding: 30px;
-    font-size: 30px;
     text-align: center;
+}
+
+.rubrik {
+    font-size: 2em;
 }
 
 .bild:hover {
