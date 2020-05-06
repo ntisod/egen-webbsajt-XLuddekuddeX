@@ -18,17 +18,18 @@ header {
     display: grid;
     margin: 0 auto;
     grid-template-columns: auto;
+    width: 90%;
     padding-top: 15vh;
 }
   
 .grid-item {
     background-color: #D3D3D3 ;
     border: 1px solid black;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
-}
-
-.rubrik {
     font-size: 2em;
 }
 
