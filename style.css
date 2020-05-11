@@ -40,3 +40,13 @@ header {
 .bild {
     transition: transform 0.4s;
 }
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto, auto, auto;
+        row-gap: 50px;
+        column-gap: 50px;
+        padding-top: 15vh;
+    }
+}
