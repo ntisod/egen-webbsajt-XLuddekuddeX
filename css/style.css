@@ -71,6 +71,7 @@ header nav {
     background-color: #39393b;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-bottom: #e14658 5px solid;
 }
 
 .länk:hover {
@@ -105,6 +106,7 @@ header nav {
 
 .stycke {
     font-size: 1.5em;
+    padding-right: 70px;
 }
 
 .stycke a{
@@ -151,10 +153,14 @@ header nav {
         grid-column-end: span 6;
     }
 
-    #licens{
+    #licens {
         margin: auto;
         padding: 0;
         padding-top: 20px;
         text-align: center;
+    }
+
+    .stycke {
+        padding: 20px;
     }
 }
