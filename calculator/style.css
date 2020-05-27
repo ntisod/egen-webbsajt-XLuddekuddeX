@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-image: repeating-linear-gradient(#4056a1, #c5cbe3, #baccef);
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    width: 10vh;
+    height: 10vh;
+    font-size: 2em;
+}
+
+#summa{
+    width: 30%;
+    height: 5vh;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+
+}

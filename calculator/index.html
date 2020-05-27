@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body class="calculator">
+    <input type="text" id="summa">
+  
+    <table>
+        <tbody>
+            <tr>
+                <td><button onclick="typeSymbol('+')">+</button></td>
+                <td><button onclick="typeSymbol('-')">-</button></td>
+                <td><button onclick="typeSymbol('*')">*</button></td>
+                <td><button onclick="typeSymbol('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="typeSymbol('7')">7</button></td>
+                <td><button onclick="typeSymbol('8')">8</button></td>
+                <td><button onclick="typeSymbol('9')">9</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><button onclick="typeSymbol('4')">4</button></td>
+                <td><button onclick="typeSymbol('5')">5</button></td>
+                <td><button onclick="typeSymbol('6')">6</button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><button onclick="typeSymbol('1')">1</button></td>
+                <td><button onclick="typeSymbol('2')">2</button></td>
+                <td><button onclick="typeSymbol('3')">3</button></td>
+                <td><button onclick="typeSymbol('0')">0</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="typeSymbol('.')">.</button></td>
+                <td><button onclick="clearAll()">C</button></td>
+                <td><button onclick="calculate()">=</button></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
