@@ -55,6 +55,11 @@ header nav {
     font-size: 1.2em; text-align: center;
 }
 
+.bild{
+    width: 30%;
+    height: auto;
+}
+
 #spel {
     list-style: none;
 }
